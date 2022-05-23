@@ -10,7 +10,7 @@
     <title>Instagram</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" >
         <div id="main" class="main">
             <div class="icon">
                <div class="icon-left">
@@ -77,9 +77,9 @@
                         <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
                       </svg>
                       <img src="./img/spinning-loading.gif" width="25" height="25" style="border-radius: 50px" alt="spinner">
-                </div>
-            </div>
-            <hr>
+                    </div>
+                  </div>
+                  <hr>
             <ul id="list" class="list-group list-group-horizontal">
                 <template id="template">
                     <li class="list-group-item">
@@ -96,6 +96,7 @@
             </ul>
 
             <template id="tem">
+
                 <div class="video">
                     <div class="vide">
                         
@@ -110,7 +111,7 @@
                             <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
                           </svg>
                     </div>
-                    <img src="./img/spinning-loading.gif" width="600" height="500" class="video_rasm1" alt="">
+                    <img src="./img/spinning-loading.gif" width="550" height="500" class="video_rasm1" alt="">
                     <div class="video_div">
                         <div class="video_ddiv">
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
@@ -141,10 +142,29 @@
 
                     </div>
                 </div>
-    
+              </template>
+          <div class="chat_video row">
+              <div class="list-group chat_name chat_list chat">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  Рекомендации для вас
+                </li>
+                
+              </div>
+          </div>
+            <template id="t">
+              <div class="chat">
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <img src="./img/spinning-loading.gif" class="chat_img" alt="">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold chat_ism">Subheading</div>
+                      <div class="fw-bold chat_fam">Subheading</div>
+                    </div>
+                    <span class="rounded-pill">Подписаны</span>
+                  </li>
+              </div>
             </template>
 
-
+            
 
 
 

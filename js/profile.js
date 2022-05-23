@@ -7,7 +7,6 @@ async function user() {
     const singleUserData = await fetch('https://reqres.in/api/users/'+userId)
     if (singleUserData.ok) {
         let userData = (await singleUserData.json()).data;
-        console.log(userData);
         let userNodes = template(userData, false)
 
         document.querySelector('.main').append(userNodes)

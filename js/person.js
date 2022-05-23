@@ -19,6 +19,5 @@ export function video ({ id, avatar, last_name, email, first_name }) {
     newTemplate.querySelector('.video_ism').textContent = last_name
     newTemplate.querySelector('.video_fam').textContent = first_name 
     
-
     return newTemplate
 }

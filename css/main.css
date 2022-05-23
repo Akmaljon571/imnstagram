@@ -1,18 +1,29 @@
+body{
+    background-color: #3e33;
+}
+
 .main{
     width:1000px;
     margin: 0 auto;
     margin-top: 50px;
-    /* background-color: #eee; */
+    background-color: #fafafa;
     padding: 10px;
-    height: 650px;
+    padding-top: 0;
+    height: 689px;
     overflow: auto;
 }
 
 .icon{
     display: flex;
-    width: 100%;
+    width: 980px;
     justify-content: space-between;
-    
+    position: fixed;
+    background-color: #fff;
+    z-index: 100;
+    padding-bottom: 100px;
+    margin-left: -10px;
+    border-bottom: 1px solid #eee;
+
 }
 
 .icon-left{
@@ -60,6 +71,7 @@
 
 svg{
     cursor: pointer;
+    color: black;
 }
 
 .list-group-horizontal{
@@ -95,6 +107,7 @@ svg{
     align-items: center;
     justify-content: space-between;
     width: 200px;
+    margin-top: 140px;
 }
 
 .ism{
@@ -140,6 +153,11 @@ svg{
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
+    width: 970px;
+    position: fixed;
+    margin-top: 50px;
+    background-color: #fff;
+    z-index: 100;
 }
 
 .input{
@@ -154,17 +172,29 @@ svg{
     justify-content: space-between;
 }
 
+#list{
+    margin-top: 130px;
+    width: 600px;
+    margin-right: 0;
+    margin-left: 8px;
+    border: 1px solid #f4f4f4;
+}
+
 .video{
     width: 600px;
+    height: 800px;
     margin-left: 20px;
     margin-top: 20px;
+    border: 1px solid #f4f4f4;
+    padding: 0;
+    padding: 5px;
+    background-color: #fff;
 }
 
 .vide{
     display: flex;
     padding: 10px;
     align-items: center;
-
 }
 
 .video_ism{
@@ -184,7 +214,7 @@ svg{
 }
 
 .video_rasm1{
-    width: 600px;
+    width: 590px;
     height: 500px;
     margin-bottom: 20px;
 }
@@ -200,7 +230,55 @@ svg{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 600px;
+    width: 590px;
     
 }
 
+.char_video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+}
+
+.chat{
+    width: 350px;
+    /* margin-top: 100px; */
+    /* margin-left: 320px; */
+}
+
+.chat_name{
+    margin-left: 640px;
+    white-space: nowrap;
+}
+
+.chat_list{
+    z-index: 100;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.chat_img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #777;
+    border-radius: 50%;
+}
+
+.chat_ism{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+}
+
+.chat_fam{
+    font-size: 10px;
+    font-weight: 100;
+    color: #777;
+}
+
+.rounded-pill{
+    font-size: 12px;
+    margin-left: 100px;
+    color:cornflowerblue;
+}
