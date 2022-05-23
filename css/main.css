@@ -1,0 +1,127 @@
+.main{
+    width:1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #eee;
+    padding: 10px;
+    height: 650px
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.icon-left{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.form{
+    width: 10px;
+}
+
+.company-Logo{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.icon-rigth{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item{
+   background-color: transparent;
+   border: none;
+   margin-right: 5px;
+   cursor: pointer;
+}
+
+.glavniyImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, rgb(255, 255, 0),rgb(255, 0, 0), rgb(255, 0, 153));
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.list-group-horizontal{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: #fff;
+    margin-right: 80px;
+    overflow: hidden;
+    border:1px solid #eee;
+    width: 800px;
+}
+
+.UserName{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #777;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.ism{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.fam{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.gmail{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.divcha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.imgimg{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
