@@ -1,3 +1,8 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
 body{
     background-color: #3e33;
 }
@@ -11,6 +16,7 @@ body{
     padding-top: 0;
     height: 689px;
     overflow: auto;
+    text-decoration: none;
 }
 
 .icon{
@@ -243,8 +249,8 @@ svg{
 
 .chat{
     width: 350px;
-    /* margin-top: 100px; */
-    /* margin-left: 320px; */
+    /* margin-top: -100px; 
+    margin-left: 320px;  */
 }
 
 .chat_name{
@@ -281,4 +287,65 @@ svg{
     font-size: 12px;
     margin-left: 100px;
     color:cornflowerblue;
+}
+
+
+.chat_list1{
+    margin-top: -8px;
+    width: 410px;
+    margin-left: 2px;
+    background-color: #fff;
+    padding-left: 0;
+    height: 453px;
+    overflow: auto;
+    z-index: 100;
+    position: fixed;
+}
+
+.om{
+    margin-top: -470px;
+}
+
+.inputtext{
+    margin-top: 400px;
+    border-radius: 60px;
+}
+
+.divchaa{
+   display: flex; 
+}
+
+.imgGlavniy{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.li:hover{
+    background-color: #eee;
+}
+
+.li{
+    height: 120px;
+}
+
+.table-bordered{
+    margin-top: 130px;
+}
+
+.lastlast{
+    display: flex;
+    align-items: center;
+}
+
+.tsssd{
+    height: 450px;
+}
+
+.needs-validation{
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 187, 0);
+    color: #eee;
 }

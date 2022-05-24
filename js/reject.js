@@ -1,6 +1,6 @@
 import person from "./person.js";
 import { video} from "./person.js";
-import personTml from "./personTml.js";
+import personTml, { chatletft } from "./personTml.js";
 
 
 export default function (list, data) {
