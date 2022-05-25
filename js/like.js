@@ -35,7 +35,7 @@ async function formw() {
 
    let yanggi = await fetch('https://reqres.in/api/users')
    let copy = (await yanggi.json()).data
-   console.log(copy);
+   console.log(await yangi.json());
    
    
 }
